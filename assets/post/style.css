@@ -1,0 +1,36 @@
+/* =============================================================================
+
+    STYLE CSS
+    Authored by Josh Beveridge and Justin Bellefontaine
+
+============================================================================= */
+
+/* Setting Imports ========================================================== */
+
+/* Palette */
+@import 'spec/palette.css';
+
+/* Settings */
+@import 'spec/settings.css';
+
+/* Typography */
+@import 'spec/typography.css';
+
+/* Sitewide Imports ========================================================= */
+
+/* Grid */
+@import 'layout/grid.css';
+
+/* Inline Layout */
+/*@import 'layout/inline.css';*/
+
+/* Header */
+@import 'layout/header.css';
+
+/* Footer */
+@import 'layout/footer.css';
+
+/* Page Imports ============================================================= */
+
+/* Mini */
+@import "blocks/mini.css";
