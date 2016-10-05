@@ -46,6 +46,14 @@
             e.preventDefault();
         });
 
+        // Emote Click Handlers ================================================
+        $("#happy").on("click", function(e) {
+            $(".mini").removeClass("default").addClass("happy");
+            setTimeout(function(e) {
+                $(".mini").removeClass("happy").addClass("default");
+            }, 1000);
+        });
+
     });
 
 })(jQuery);
